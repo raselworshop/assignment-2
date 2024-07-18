@@ -17,12 +17,17 @@ body{
 .container{
     width: 90%;
     margin: 4.5rem;
+    color: white;
+    background-color: rgb(6, 0, 0);
     border: 2px solid white;
 }
-.span{
-    padding-left: 20px;
-    padding-right: 20px;
+.span {
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 20px;
+    font-weight: 800;
     text-align: center;
+    border-radius: 15px;
     background-color: rgba(232, 87, 30, 0.998);
 }
 .btn-primary{
@@ -33,7 +38,7 @@ body{
     padding: 0.9rem 1.27;
     background-color: rgba(232, 87, 30, 0.998);
     border: rgba(232, 87, 30, 0.998);
-    border-radius: 20px;
+    border-radius: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,4 +63,107 @@ body{
     border: 1px solid rgb(43, 40, 40);
     border-radius: 8px;
     padding: 5px;
+}
+/* banner section styles */
+.banner{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.banner-content{
+    width: 47%;
+    height: auto;
+}
+.banner-content h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.banner-content p{
+    color:rgba(255, 255, 255, 0.5);
+    width: 570px;
+    margin: 24px 0;
+}
+.banner-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-btn .btn{
+    width: 220px;
+    height: 50px;
+    border: 1px solid white;
+    margin-right: 92px;
+    background-color: black;
+    color: white;
+    border-radius: 24px;
+}
+    /* banner image section styles */
+.banner-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    position: relative;
+
+}
+.banner-image img {
+    margin-right: 13px;
+    height: 585px;
+    width: 342px;
+}
+/* free workout section */
+.free-workout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 160px;
+    height: 71px;
+    /* padding: 4px 37px; */
+    position: absolute;
+    right: -32px;
+    top: 128px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+}
+.free-workout h1{
+    justify-content: flex-start;
+    text-align:center;
+}
+.p-color{
+    color:rgba(252, 250, 250, 0.65);
+}
+/* tutorial video section */
+.video-tutorial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.video-tutorial {
+    max-width: 181px;
+    height: 71px;
+    padding: 2px 4px;
+    position: absolute;
+    left: -92px;
+    bottom: 75px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+}
+.red-ball{
+    width: 55px;
+    height: 55px;
+    background-color: rgba(232, 87, 30, 0.998);
+    border-radius: 100%;
+}
+.video-tutorial .tutorial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+.tutorial h3{
+    font-size: 1.8rem;
+    font-weight: normal;
 }
