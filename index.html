@@ -96,6 +96,7 @@
             <div class="bmi-cal-chart">
                 <h2>BMI Calculator Chart</h2>
                 <table>
+                    <tbody class="tbody">
                     <tr>
                         <th>BMI</th>
                         <th>Weight Status</th>
@@ -116,24 +117,32 @@
                         <td>30 - and above</td>
                         <td>Obese</td>
                     </tr>
+                </tbody>
                 </table>
             </div>
             <div class="cal-your-bmi-form">
                 <div class="form-header-content">
-                    <h1>Calculate Your BMI</h1>
+                    <h2>Calculate Your BMI</h2>
                     <p>Body Mass Index (BMI) is a person's weight in kilograms divided by the square of height in meters. A high BMI can indicate high body fatness.</p>
                 </div>
                 <div class="bmi-form">
-                    <form>
-                        <label for="height-cm"></label><br>
-                        <input type="text" id="height-cm" name="height-cm" value="Height/cm">
-                        <label for="height-cm"></label><br>
-                        <input type="text" id="height-cm" name="height-cm" value="Height/cm">
-                        <label for="height-cm"></label><br>
-                        <input type="text" id="height-cm" name="height-cm" value="Height/cm">
-                        <select name="" id=""></select>
+                    <form id="form">
+                        <input type="text" id="height-cm" name="height-cm" placeholder="Height/cm">
+                        <input type="text" id="weight-kg" name="weight-kg" placeholder="weight-kg">
+                        <input type="text" id="age" name="age" placeholder="age">
+                        <select name="sex" id="sex">
+                            <option value="sex" placeholder="Sex">Sex</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
                     </form>
-                    <select name="" id=""></select>
+                </div>
+                <div class="activity-selection">
+                    <select name="select an activity">
+                        <option value="choose-1">Select an activity</option>
+                        <option value="choose-2">choose-2</option>
+                        <option value="choose-3">Choose-3</option>
+                    </select>
                 </div>
                 <button class="btn-primary" type="submit" value="Calculate">Calculate</button>
             </div>
