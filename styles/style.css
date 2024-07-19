@@ -425,6 +425,7 @@ td{
         width: 100%;
         margin: 0 auto;
         margin-bottom: 50px;
+        border: none;
     }
     .nav-bar{
         display: flex;
@@ -432,6 +433,7 @@ td{
         align-items: center;
         gap: 24px;
         max-width: 395px;
+        border: none;
     }
     .nav-options{
         display: none;
@@ -445,6 +447,7 @@ td{
         justify-content:space-between;
         align-items:center;
         width: 395px;
+        border: none;
     }
     .banner-content{
         width: 100%;
@@ -521,5 +524,60 @@ td{
         margin-right: auto;
         margin-bottom: 30px;
     }
+    .bmi-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+    }
+    .bmi-calculator-sect {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0rem;
+    }
+    .bmi-header-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 4.5rem;
+        width: 84%;
+        margin: 80px auto;
+    }
+    .bmi-header-content h1 {
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 1rem;
+    }
+    .bmi-cal-chart h2 {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0 0px 1rem 0;
+    }
+    .bmi-cal-chart {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -100px;
+    }
+    .cal-your-bmi-form {
+        width: 94%;
+        margin-top: 16px;
+        margin-left: 26px;
+        margin-right: 20px;
+        background-color: rgb(30, 30, 30);
+        border-radius: 1.2rem;
+    }
+    .form-header-content h2 {
+        font-size: 22px;
+        font-weight: 600;
+        text-align: left;
+    }
+    
 
 }
