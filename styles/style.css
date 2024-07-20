@@ -545,6 +545,24 @@ td{
     margin-left: -3.7rem;
     color: rgba(252, 250, 250, 0.65);
 }
+.right-get-essential{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2.6rem;
+}
+.right-get-essential h1{
+    margin-bottom: 12px;
+}
+.right-get-essential ul{
+    margin: 20px;
+}
+.right-get-essential li{
+    list-style: none;
+    text-align: left;
+    margin-left: -3.7rem;
+    color: rgba(252, 250, 250, 0.65);
+}
 
 hr{
     width: 1060px;
