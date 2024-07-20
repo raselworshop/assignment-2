@@ -643,6 +643,15 @@ td{
         font-weight: 600;
         text-align: left;
     }
+    /* meet our team section */
+    .meet-our-team-sect{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-details-container{
+        display: flex;
+        flex-direction: column;
+    }
     
 
 }
